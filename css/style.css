@@ -1,0 +1,44 @@
+
+body {
+
+background: #F0C27B;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #4B1248, #F0C27B);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #4B1248, #F0C27B); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.main {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    /* bring your own prefixes */
+    transform: translate(-50%, -50%);
+    color: azure;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+.main-quote {
+    padding: 1rem;
+}
+.generate_button {
+    font-size: 2rem ;
+    border: 0.1rem solid grey;
+    border-radius: 0.2rem;
+    padding: 1rem;
+    cursor: pointer;
+    transition: all 0.5s ease-in;
+    font-family:  Poppins;
+    margin: 1rem;
+}
+.quote {
+    font-size: 1.2rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+.author {
+    font-size: 1.5rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    float: right;
+}
+button:hover {
+    color: white;
+    background-color: rgb(155, 154, 155);
+}
